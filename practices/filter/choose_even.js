@@ -2,7 +2,8 @@
 
 function choose_even(collection) {
 
-  //在这里写入代码
+  //从collection中选出偶数
+  return collection.filter((even)=>even % 2 === 0)
 }
 
 module.exports = choose_even;

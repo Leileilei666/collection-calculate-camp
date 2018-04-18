@@ -2,7 +2,13 @@
 
 function double_to_one(collection) {
 
-  //在这里写入代码
+  //把二维数组变成一维数组
+  let result = [];
+	collection.forEach( (item)=>{
+		result = result.concat(item)	
+	})
+	
+	return result;
 }
 
 module.exports = double_to_one;
